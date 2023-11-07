@@ -5,4 +5,4 @@
   tasks:
     - name: "Include role_jenkins"
       ansible.builtin.include_role:
-        name: foo.bar.my_role
+        name: "freestyle_molecule"
