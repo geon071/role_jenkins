@@ -3,6 +3,6 @@
   hosts: all
   gather_facts: false
   tasks:
-    - name: "Include extensions"
+    - name: "Include role_jenkins"
       ansible.builtin.include_role:
-        name: "extensions"
+        name: "role_jenkins"
